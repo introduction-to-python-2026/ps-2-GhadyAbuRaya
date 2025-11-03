@@ -13,9 +13,6 @@ def find_max_number(num1, num2, num3):
 
 
 def find_mean(num1, num2, num3):
-  num1 = int(input("what is num 1"))
-  num2 = int(input("what is num 2"))
-  num3 = int(input("what is num 3"))
   mean = (num1+num2+num3)/3
   return
 
