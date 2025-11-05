@@ -1,9 +1,6 @@
 
 
 def find_max_number(num1, num2, num3):
-  num1 = float(input("Enter first number: "))
-  num2 = float(input("Enter second number: "))
-  num3 = float(input("Enter third number: "))
   if num1 > num2 and num1 > num3:
       return num1
   elif num2 > num1 and num2 > num3:
@@ -16,7 +13,7 @@ def find_mean(num1, num2, num3):
 
 def find_mean_std(num1, num2, num3):
     mean = find_mean(num1, num2, num3)
-    std=((num1 - mean)**2 + (num2 - mean)**2 + (num3 - mean)**2) / 3
+    std=(((num1 - mean)**2 + (num2 - mean)**2 + (num3 - mean)**2) / 3)**0.5
     return mean, std
      
 
